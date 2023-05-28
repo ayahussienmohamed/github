@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     height: 2000px; 
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    margin-top: 20px;
+    position: fixed;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header-content img {
+    width: 100px;
+    flex: 1;
+}
+.header-content nav {
+    flex: 3;
+    margin-left: 200px;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin-left: 70px;
+}
+ul li a:hover {
+    color: #1CA555;
+}
+.active {
+    color: #1CA555;
+}
+.header-content button {
+    color: #fff;
+    background-color: #1CA555;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.signup{
+    color: #1CA555;
+    font-weight: bold;
+}
+.parent{
+    overflow: auto;
+    display: flex;
+    margin-left: 50px;
+}
+.first{
+    margin-left: 60px;
+
+}
+.last{
+    margin-left: 60px;
+    /* float: left; */
+}
+.infname{
+    width: 400px;
+    height: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    
+
+}
+.inlname{
+    width: 400px;
+    height: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+}
+
+.login{
+    height: 100vh;
+}
+ 
+.login .text {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+    /* position: fixed; */
+}
+.form {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.login .inp {
+    width: 80%;
+    height: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+form .lab {
+    display: block;
+    margin: 20px 0 -5px 125px;
+    text-align: left;
+}
+.remember {
+    margin-left: 600px;
+    color: #1CA555;
+    text-decoration: underline;
+    position: absolute;
+    right: 125px;
+}
+.check {
+    position: absolute;
+    left: 125px;
+}
+.box {
+    position: absolute;
+    left: 150px;
+    top: 0;
+}
+.pass {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+}
+.log {
+    color: #fff;
+    background-color: #1CA555;
+    width: 80%;
+    border: 0;
+    height: 50px;
+    border-radius: 5px;
+    margin: 40px auto;
+}
+p {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+p span {
+    color: #1CA555;
+}
+.web{
+    display: flex;
+}
+.google{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin-left: 110px;
+    /* margin: 0 auto; */
+
+}
+.fb{
+    width: 300px;
+    height: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin-left: 250px;
+
+}
+.form .inp{
+    width: 80%;
+    height: 50px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.icon{
+    font-size: 26px;
+    /* margin-left: 20px;
+    margin-top: 8px; */
+    padding-top: 10px;
+    padding-left: 33px;
+}
+.par{
+  margin-top: -24px;
+  font-weight: bolder;
+}
+ 
+.icons{
+    font-size: 26px;
+    /* margin-left: 20px;
+    margin-top: 8px; */
+    padding-top: 10px;
+    padding-left: 200px;
+
+}
